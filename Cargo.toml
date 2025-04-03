@@ -1,0 +1,9 @@
+[package]
+name = "ssh-at-home"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.35", features = ["derive"] }
+rand = "0.9.0"
+ssh-key = { version = "0.6.7", features = ["ed25519", "getrandom"] }
